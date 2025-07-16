@@ -13,7 +13,7 @@ FER-2013 provides 28,709 training examples along with 3,589 examples in the publ
 
 ## Model Architecture
 
-The model is built using TensorFlow and Keras. The architecture consists of the following layers:
+The model is built using PyTorch's torchvision. The architecture consists of the following layers:
 
 - **Input Layer:** Accepts 48x48 grayscale images.
 - **Convolutional Layers:** Multiple convolutional layers with ReLU activation to extract spatial features.
@@ -29,10 +29,7 @@ The model was trained using the Adam/SGD optimizers and categorical cross-entrop
 
 ## Requirements
 - Python 3.6+
-- TensorFlow 2.x
-- Keras
-- NumPy
-- OpenCV
+- Torch
 - Matplotlib
 
 ## Usage
